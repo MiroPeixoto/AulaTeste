@@ -17,7 +17,7 @@ h1 {
 }
 
 .roll-animation {
-    animation-name: rool;
+    animation-name: roll;
 }
 
 @keyframes roll {
@@ -41,7 +41,7 @@ button{
 }
 
 
-button: hover{
+button:hover{
     background-color: #2e8baf;
 }
 
@@ -49,7 +49,7 @@ ul{
     list-style: none;
     padding: 0;    
     max-width: 600px;
-    margin: 2rem;
+    margin: 2rem auto;
 }
 
 li{

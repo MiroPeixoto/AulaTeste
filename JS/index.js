@@ -46,7 +46,7 @@ function getDiceFace(rollResult){
 }
 
 buttonEl.addEventListener("click", ()=>{
-    diceEl.classList.add("roll-animation");
+    diceEl.classList.add("roll-animation")
     setTimeout(()=>{
         diceEl.classList.remove("roll-animation")
     },1000);
